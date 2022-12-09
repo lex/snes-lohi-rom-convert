@@ -18,18 +18,24 @@ To use the `lohi.py` script, you need to have Python 3 installed on your compute
 $ python3 lohi.py [in_file_path] [out_file_path] [conversion_type]
 ```
 
-where `[in_file_path]` is the path to the input ROM image, `[out_file_path]` is the path to the output ROM image, and `[conversion_type]` is the type of conversion to perform. The `[conversion_type]` can be one of the following strings:
+where
+
+- `[in_file_path]` is the path to the input ROM image
+- `[out_file_path]` is the path to the output ROM image
+- `[conversion_type]` is the type of conversion to perform
+
+The `[conversion_type]` can be one of the following strings:
 
 - `lo-to-hi`: convert a LoROM image to a HiROM image.
 - `hi-to-lo`: convert a HiROM image to a LoROM image.
 
-For example, to convert a LoROM image at `"in.rom"` to a HiROM image and save it to `"out.rom"`, you can run the following command:
+For example, to convert a LoROM image at `in.rom` to a HiROM image and save it to `out.rom`, you can run the following command:
 
 ```sh
 $ python3 lohi.py in.rom out.rom lo-to-hi
 ```
 
-This command converts the LoROM image at `"in.rom"` to a HiROM image and saves it to `"out.rom"`.
+This command converts the LoROM image at `in.rom` to a HiROM image and saves it to `out.rom`.
 
 ## Requirements
 
